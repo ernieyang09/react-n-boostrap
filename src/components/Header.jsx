@@ -1,4 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Nav = styled.div`
+
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+
+  &.show {
+    max-height: 1000px;
+     
+  }
+`
 
 
 class Header extends React.Component {
@@ -19,7 +32,7 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <div className={`bg-dark collapse ${this.state.show? 'show': ''}`} id='navbarHeader' style={{}}>
+        <Nav className={`bg-dark ${this.state.show? 'show': ''}`}>
           <div className='container'>
             <div className='row'>
               <div className='col-sm-8 col-md-7 py-4'>
@@ -36,7 +49,7 @@ class Header extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </Nav>
         <div className='navbar navbar-dark bg-dark box-shadow'>
           <div className='container d-flex justify-content-between'>
             <a href='#' className='navbar-brand d-flex align-items-center'>
