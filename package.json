@@ -1,0 +1,19 @@
+{
+  "name": "react-n-boostrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernieyang09/react-n-boostrap.git"
+  },
+  "author": "Ernie Yang <https://github.com/ernieyang09>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernieyang09/react-n-boostrap/issues"
+  },
+  "homepage": "https://github.com/ernieyang09/react-n-boostrap#readme"
+}
