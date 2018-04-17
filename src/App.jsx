@@ -1,15 +1,23 @@
 import React from 'react';
+import {
+    Header,
+    Jumbortron,
+    Main,
+    Footer,
+} from './components';
 
-
-class Test extends React.Component {
+class App extends React.Component {
     render() {
         return (
             <div>
-                Hello world;
+                <Header />
+                <Jumbortron />
+                <Main />
+                <Footer />
             </div>
         )
     }
 }
 
 
-export default Test;
+export default App;
