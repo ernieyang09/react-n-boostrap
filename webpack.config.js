@@ -17,10 +17,10 @@ module.exports = {
         test: /\.jsx?/,
         include: path.resolve(__dirname, 'src')
       },
-      // {
-      //    test: /\.css$/,
-      //    use: [ 'style-loader', 'css-loader' ]
-      // }
+      {
+         test: /\.css$/,
+         use: [ 'style-loader', 'css-loader' ]
+      }
     ]
   },
   devServer:{
