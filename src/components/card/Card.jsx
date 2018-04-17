@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from '../button';
+
 class Card extends React.Component {
   render() {
     const { minutes, text, img } = this.props.data;
@@ -19,8 +21,8 @@ class Card extends React.Component {
           </p>
           <div className='d-flex justify-content-between align-items-center'>
             <div className='btn-group'>
-              <button type='button' className='btn btn-sm btn-outline-secondary'>View</button>
-              <button type='button' className='btn btn-sm btn-outline-secondary'>Edit</button>
+              <Button extraClassName='btn-sm btn-outline-secondary' value='View' />
+              <Button extraClassName='btn-sm btn-outline-secondary' value='Edit' />
             </div>
             <small className='text-muted'>
               {`${minutes | 'N/A'} min`}
