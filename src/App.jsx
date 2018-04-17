@@ -9,12 +9,12 @@ import {
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <Header />
-                <Jumbortron />
-                <Main />
-                <Footer />
-            </div>
+          <div>
+            <Header />
+            <Jumbortron />
+            <Main />
+            <Footer />
+          </div>
         )
     }
 }
